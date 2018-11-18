@@ -30,7 +30,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
         Preference.OnPreferenceChangeListener {
 
     private ListPreference mQuickPulldown;
-    private ListPreference mAnnoyingNotification
+    private ListPreference mAnnoyingNotification;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
