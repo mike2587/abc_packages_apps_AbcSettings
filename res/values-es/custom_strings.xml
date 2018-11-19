@@ -376,12 +376,6 @@
 
     <string name="force_ambient_for_media_pref_title">Teletipo Ambiente de música</string>
     <string name="force_ambient_for_media_pref_summary">Configurar el teletipo de música ambiente</string>
-    <string name="ambient_ticker_footer">Esta característica permite mostrar información de la canción actual en la pantalla de bloqueo con o sin la pantalla ambiente activa.\n\nTu puedes seleccionar dos diseños, normal y mínimo. Mientras esta característica toma ventaja de la pantalla ambiente no depende de ella. Esta puede funcionar sin la pantalla ambiente activa (forzado) en opciones.\n\nLa vista normal incluye el reloj y fecha en pantalla de bloqueo.\n\nLa vista mínima incluye solo este teletipo en el centro de la pantalla.</string>
-    <string name="force_ambient_for_media_title">Selecciona el diseño</string>
-    <string name="force_ambient_for_media_off">Inactivo</string>
-    <string name="force_ambient_for_media_on">Normal</string>
-    <string name="force_ambient_for_media_on_forced">Normal (forzado)</string>
-    <string name="force_ambient_for_media_on_forced_clean">Minimal (forzado)</string>
 
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Sonidos de notification Smart</string>
