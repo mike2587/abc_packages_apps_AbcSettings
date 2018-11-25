@@ -17,7 +17,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <com.abc.support.preferences.SecureSettingListPreference
+    <Preference
+        android:key="clock_settings"
+        android:title="@string/status_bar_clock"
+        android:summary="@string/status_bar_clock_summary"
+        android:fragment="com.abc.settings.ClockDateSettings" />
+
+    <com.abc.support.preferences.SecureSettingListPreference
         android:key="status_bar_battery_style"
         android:title="@string/battery_style_title"
         android:summary="@string/battery_style_summary"
@@ -25,7 +31,7 @@
         android:entryValues="@array/battery_style_values"
         android:defaultValue="0" />
 
-        <com.abc.support.preferences.SystemSettingListPreference
+    <com.abc.support.preferences.SystemSettingListPreference
         android:key="status_bar_show_battery_percent"
         android:title="@string/show_battery_percent_title"
         android:summary="@string/show_battery_percent_summary"
