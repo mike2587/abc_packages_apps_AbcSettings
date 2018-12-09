@@ -39,4 +39,19 @@
         android:entryValues="@array/battery_percent_values"
         android:defaultValue="0" />
 
+    <PreferenceCategory
+        android:key="net_monitor_category"
+        android:title="@string/net_monitor_category_title" >
+        <com.abc.support.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:defaultValue="true" />
+
+        <com.abc.support.preferences.CustomSeekBarPreference
+            android:key="network_traffic_autohide_threshold"
+            android:title="@string/network_traffic_autohide_threshold_title"
+            android:max="10"
+            settings:min="0"
+            settings:units="" />
+    </PreferenceCategory>
 </PreferenceScreen>
