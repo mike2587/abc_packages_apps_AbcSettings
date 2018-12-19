@@ -22,9 +22,11 @@
         android:title="@string/force_ambient_for_media_title"
         android:defaultValue="true" />
 
-    <com.abc.support.preferences.SystemSettingSwitchPreference
+    <com.abc.support.preferences.SystemSettingListPreference
         android:key="ambient_recognition"
         android:dependency="force_ambient_for_media"
         android:title="@string/ambient_recognition_title"
+        android:entries="@array/entries_ambient_recognition"
+        android:entryValues="@array/values_ambient_recognition"
         android:defaultValue="false" />
 </PreferenceScreen>

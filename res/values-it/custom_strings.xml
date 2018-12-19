@@ -176,11 +176,6 @@
     <string name="incall_notifications_vibrate">Notifiche in chiamata meno intrusive</string>
     <string name="incall_notifications_vibrate_summary">Vibra invece di suonare per le notifiche durante le chiamate</string>
 
-    <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
-    <string name="force_ambient_for_media_pref_summary">Configura l\'Ambient music ticker</string>
-    <string name="ambient_ticker_footer">L\'Ambient Music Ticker mostra informazioni sulla traccia musicale riprodotta con una schermata Ambient Display.\n\nFunziona anche se Ambient Display è disattivato quando una nuova traccia viene avviata, forzando un ambient screen pulito con le sole info sulla traccia al centro dello schermo.\n\nUn doppio tap sulla traccia permette di passare alla successiva.</string>
-    <string name="force_ambient_for_media_title">Attiva</string>
-
     <string name="less_notification_sounds_title">Suoni notifica intelligenti</string>
     <string name="less_notification_sounds_summary">Riproduci le notifiche sonore consecutive di ogni app solo dopo il tempo impostato</string>
     <string name="less_notification_sounds_default">App default</string>

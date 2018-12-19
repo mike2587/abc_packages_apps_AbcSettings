@@ -406,9 +406,12 @@
 
     <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
     <string name="force_ambient_for_media_pref_summary">Configure the Ambient music ticker</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker shows local playing music track info within Ambient display screen and it\'s triggered when a new track is started.\n\nYou can also double tap on track info to skip track, even if it\'s playing on another device but you have the notification on the phone (like with Spotify).\n\nIf you enable the Now Playing mode, it can listen to the mic and check for songs playing around you, but this can drain more battery.</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker shows local playing music track info within Ambient display screen and it\'s triggered when a new track is started.\nYou can also double tap on track info to skip track, even if it\'s playing on another device but you have the notification on the phone (like with Spotify).\n\nIf you enable the Now Playing mode, it can listen to the mic and check for songs playing around you, but this can drain more battery.\nAutomatic mode is always listening, manual triggers a music scan if you long press volume rocker when screen is off in ambient mode.</string>
     <string name="force_ambient_for_media_title">Ambient music</string>
     <string name="ambient_recognition_title">Now Playing</string>
+    <string name="ambient_recognition_disabled">Disabled</string>
+    <string name="ambient_recognition_automatic">Automatic</string>
+    <string name="ambient_recognition_manual">Manual</string>
 
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Smart notification sounds</string>

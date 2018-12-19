@@ -152,4 +152,16 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+
+    <string-array name="entries_ambient_recognition">
+       <item>@string/ambient_recognition_disabled</item>
+       <item>@string/ambient_recognition_automatic</item>
+       <item>@string/ambient_recognition_manual</item>
+    </string-array>
+
+    <string-array name="values_ambient_recognition" translatable="false">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+    </string-array>
 </resources>
