@@ -26,8 +26,12 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.abc.support.preferences.SystemSettingListPreference;
+
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private static final String KEY_WEATHER_TEMP = "weather_lockscreen_unit";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -35,6 +39,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.abc_lockscreen_settings);
         ContentResolver resolver = getActivity().getContentResolver();
 
+        SystemSettingListPreference mWeatherTemp =
+                (SystemSettingListPreference) findPreference(KEY_WEATHER_TEMP);
+        if (!com.android.internal.util.du.Utils.isPackageInstalled(
+                getActivity(), "org.pixelexperience.weather.client")) {
+            getPreferenceScreen().removePreference(mWeatherTemp);
+        }
     }
 
     @Override
