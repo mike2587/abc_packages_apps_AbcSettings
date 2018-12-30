@@ -500,7 +500,7 @@
     <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
 
     <!-- Weather -->
-    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_unit">Weather temperature unit</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 </resources>
