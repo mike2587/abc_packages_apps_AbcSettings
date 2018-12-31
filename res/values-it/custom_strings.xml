@@ -30,6 +30,7 @@
     <string name="abc_battery_light_settings">Luce caricamento batteria</string>
     <string name="abc_notification_light_settings">Luce di notifica</string>
     <string name="recent_settings_title">Pannello Recenti</string>
+    <string name="abc_aosp_gestures_title">Gestures stock e ABC</string>
 
     <string name="press_color_to_apply">Premi sul colore in basso per applicare</string>
 
