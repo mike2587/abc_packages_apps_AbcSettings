@@ -498,7 +498,6 @@
     <string name="lockscreen_date_selection_default">Default</string>
     <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
-    <string name="lockscreen_clock_selection_du">Analog (du)</string>
 
     <!-- Weather -->
     <string name="weather_unit">Weather temperature unit</string>
