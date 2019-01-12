@@ -17,10 +17,4 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
-        android:key="chooser_activity_blacklist"
-        android:fragment="com.abc.settings.ChooserActivityBlacklist"
-        android:title="@string/chooser_activity_blacklist_title"
-        android:summary="@string/chooser_activity_blacklist_summary"
-        android:persistent="false" />
 </PreferenceScreen>
