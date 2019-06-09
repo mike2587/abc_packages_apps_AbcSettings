@@ -261,4 +261,11 @@
     <string name="lockscreen_date_selection_default">Default</string>
     <string name="lockscreen_date_selection_str_box">Box semi trasparente</string>
     <string name="lockscreen_date_selection_str_round">Box semi trasparente (tondo)</string>
+
+<!-- Cursor control -->
+    <string name="volume_key_cursor_control_title">Controllo cursore tramite tasti volume</string>
+    <string name="volume_key_cursor_control_off">Disattivato</string>
+    <string name="volume_key_cursor_control_on">I pulsanti Volume su/giù spostano il cursore nel testo a sinistra/destra</string>
+    <string name="volume_key_cursor_control_on_reverse">I tasti Volume su/giù spostano il cursore nel testo a destra/sinistra</string>
+    
 </resources>

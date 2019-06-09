@@ -489,4 +489,11 @@
     <string name="lockscreen_date_selection_default">Default</string>
     <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+
+    <!-- Cursor control -->
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    
 </resources>
